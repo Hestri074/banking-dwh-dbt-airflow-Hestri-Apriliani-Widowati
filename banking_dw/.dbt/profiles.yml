@@ -1,0 +1,9 @@
+banking_dw:
+  profiles:
+    target: dev
+    outputs:
+      dev:
+        type: duckdb
+        path: 'my_database.duckdb'
+        schema: main
+        threads: 4

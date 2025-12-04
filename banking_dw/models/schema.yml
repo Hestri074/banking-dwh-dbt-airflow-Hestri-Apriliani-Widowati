@@ -1,0 +1,102 @@
+version: 2
+
+sources:
+  - name: banking_raw
+    description: "Sumber data mentah untuk core banking (customers, accounts, transactions)."
+    tables:
+      - name: customers
+        description: "Tabel nasabah."
+      - name: accounts
+        description: "Tabel rekening."
+      - name: transactions
+        description: "Tabel transaksi."
+
+models:
+  - name: stg_customer
+    description: "Staging nasabah."
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_account
+    description: "Staging rekening."
+    columns:
+      - name: account_id
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customer')
+                field: customer_id
+
+  - name: stg_transaction
+    description: "Staging transaksi."
+    columns:
+      - name: transaction_id
+        tests:
+          - not_null
+          - unique
+      - name: account_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_account')
+                field: account_id
+      - name: amount
+        tests:
+          - not_null
+
+  - name: int_daily_balance
+    description: "Saldo akhir per hari per account."
+    columns:
+      - name: account_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_account')
+                field: account_id
+
+  - name: dim_customer
+    description: "Dimensi nasabah."
+    columns:
+      - name: customer_key
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_transaction
+    description: "Fact transaksi perbankan."
+    columns:
+      - name: transaction_key
+        tests:
+          - not_null
+          - unique
+      - name: account_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_account')
+                field: account_id
+      - name: customer_key
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_customer')
+                field: customer_key
+      - name: amount
+        tests:
+          - not_null
