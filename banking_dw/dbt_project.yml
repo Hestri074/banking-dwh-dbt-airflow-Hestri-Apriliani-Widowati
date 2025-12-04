@@ -18,8 +18,13 @@ clean-targets:
 
 models:
   banking_dw:
-    example:
-      +materialized: view
+    # kamu bisa tambah config default untuk subfolder di sini kalau mau
+    # staging:
+    #   +materialized: view
+    # marts:
+    #   +materialized: view
+    # intermediate:
+    #   +materialized: view
 
 seeds:
   banking_dw:
