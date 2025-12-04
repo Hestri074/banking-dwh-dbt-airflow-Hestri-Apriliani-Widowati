@@ -5,29 +5,32 @@ sources:
     description: "Sumber data mentah untuk core banking (customers, accounts, transactions)."
     tables:
       - name: customers
-        description: "Tabel nasabah."
+        description: "Tabel nasabah dari sistem sumber."
       - name: accounts
-        description: "Tabel rekening."
+        description: "Tabel rekening nasabah."
       - name: transactions
-        description: "Tabel transaksi."
+        description: "Tabel transaksi rekening nasabah."
 
 models:
   - name: stg_customer
-    description: "Staging nasabah."
+    description: "Staging nasabah (1 baris per nasabah)."
     columns:
       - name: customer_id
+        description: "Natural key nasabah dari sistem sumber."
         tests:
           - not_null
           - unique
 
   - name: stg_account
-    description: "Staging rekening."
+    description: "Staging rekening (1 baris per rekening)."
     columns:
       - name: account_id
+        description: "Natural key rekening."
         tests:
           - not_null
           - unique
       - name: customer_id
+        description: "Foreign key ke nasabah pemilik rekening."
         tests:
           - not_null
           - relationships:
@@ -36,13 +39,15 @@ models:
                 field: customer_id
 
   - name: stg_transaction
-    description: "Staging transaksi."
+    description: "Staging transaksi (1 baris per transaksi)."
     columns:
       - name: transaction_id
+        description: "Natural key transaksi."
         tests:
           - not_null
           - unique
       - name: account_id
+        description: "Foreign key ke rekening tempat transaksi terjadi."
         tests:
           - not_null
           - relationships:
@@ -50,6 +55,7 @@ models:
                 to: ref('stg_account')
                 field: account_id
       - name: amount
+        description: "Nominal transaksi."
         tests:
           - not_null
 
@@ -57,6 +63,7 @@ models:
     description: "Saldo akhir per hari per account."
     columns:
       - name: account_id
+        description: "Rekening yang dihitung saldonya."
         tests:
           - not_null
           - relationships:
@@ -65,25 +72,29 @@ models:
                 field: account_id
 
   - name: dim_customer
-    description: "Dimensi nasabah."
+    description: "Dimensi nasabah untuk analisis (1 baris per nasabah)."
     columns:
       - name: customer_key
+        description: "Surrogate key dimensi nasabah."
         tests:
           - not_null
           - unique
       - name: customer_id
+        description: "Natural key nasabah dari sumber."
         tests:
           - not_null
           - unique
 
   - name: fact_transaction
-    description: "Fact transaksi perbankan."
+    description: "Fact transaksi perbankan, grain = satu baris per transaksi."
     columns:
       - name: transaction_key
+        description: "Surrogate key fact transaksi."
         tests:
           - not_null
           - unique
       - name: account_id
+        description: "Foreign key ke staging rekening."
         tests:
           - not_null
           - relationships:
@@ -91,6 +102,7 @@ models:
                 to: ref('stg_account')
                 field: account_id
       - name: customer_key
+        description: "Foreign key ke dimensi nasabah."
         tests:
           - not_null
           - relationships:
@@ -98,5 +110,6 @@ models:
                 to: ref('dim_customer')
                 field: customer_key
       - name: amount
+        description: "Nominal transaksi (measure utama)."
         tests:
           - not_null
