@@ -1,0 +1,101 @@
+transaction_id,account_id,transaction_date,transaction_time,transaction_type,amount,balance_after,merchant_name,merchant_category,channel,location,description,status
+1,1,2024-11-01,09:15:23,Deposit,5000000,10750000,,-,ATM,Jakarta,Setor Tunai,Completed
+2,1,2024-11-03,14:30:45,Withdrawal,1000000,9750000,,-,ATM,Jakarta,Tarik Tunai,Completed
+3,2,2024-11-03,10:20:15,Transfer Out,500000,8000000,,-,Mobile Banking,Jakarta,Transfer ke 1003456789012,Completed
+4,3,2024-11-03,10:21:30,Transfer In,500000,12800000,,-,Mobile Banking,Jakarta,Transfer dari 1001234567891,Completed
+5,1,2024-11-05,16:45:00,Payment,150000,9600000,Indomaret,Retail,Debit Card,Jakarta,Belanja,Completed
+6,4,2024-11-05,08:30:00,Deposit,2000000,27600000,,-,Branch,Yogyakarta,Setor Tunai,Completed
+7,6,2024-11-06,11:20:30,Withdrawal,500000,18400000,,-,ATM,Bandung,Tarik Tunai,Completed
+8,8,2024-11-06,13:45:15,Payment,250000,9550000,Alfamart,Retail,Debit Card,Surabaya,Belanja,Completed
+9,10,2024-11-07,09:00:00,Deposit,3000000,45500000,,-,Branch,Semarang,Setor Tunai,Completed
+10,12,2024-11-07,15:30:00,Payment,500000,35200000,Tokopedia,E-commerce,Internet Banking,Surabaya,Belanja Online,Completed
+11,1,2024-11-08,10:15:00,Payment,75000,9525000,Starbucks,Food & Beverage,Debit Card,Jakarta,Kopi,Completed
+12,14,2024-11-08,14:20:00,Withdrawal,1000000,13200000,,-,ATM,Medan,Tarik Tunai,Completed
+13,16,2024-11-09,11:30:00,Deposit,2000000,24800000,,-,ATM,Tangerang,Setor Tunai,Completed
+14,19,2024-11-09,16:45:00,Payment,300000,30900000,Shopee,E-commerce,Internet Banking,Bandung,Belanja Online,Completed
+15,22,2024-11-10,09:00:00,Deposit,5000000,33400000,,-,Branch,Palembang,Setor Tunai,Completed
+16,1,2024-11-10,12:30:00,Transfer Out,2000000,7525000,,-,Mobile Banking,Jakarta,Transfer ke 1004567890123,Completed
+17,6,2024-11-10,12:31:15,Transfer In,2000000,20400000,,-,Mobile Banking,Bandung,Transfer dari 1001234567890,Completed
+18,25,2024-11-11,10:00:00,Deposit,1500000,28400000,,-,ATM,Solo,Setor Tunai,Completed
+19,30,2024-11-11,14:15:00,Withdrawal,2000000,46500000,,-,ATM,Jakarta,Tarik Tunai,Completed
+20,1,2024-11-12,08:45:00,Payment,200000,7325000,Shell,Fuel,Debit Card,Jakarta,Bensin,Completed
+21,8,2024-11-12,11:20:00,Payment,450000,9100000,Gramedia,Retail,Debit Card,Surabaya,Buku,Completed
+22,36,2024-11-13,09:30:00,Deposit,2000000,35400000,,-,Branch,Bandung,Setor Tunai,Completed
+23,1,2024-11-13,15:00:00,Transfer Out,1000000,6325000,,-,Mobile Banking,Jakarta,Transfer ke 1008901234567,Completed
+24,12,2024-11-13,15:01:20,Transfer In,1000000,36200000,,-,Mobile Banking,Surabaya,Transfer dari 1001234567890,Completed
+25,4,2024-11-14,10:15:00,Withdrawal,1000000,26600000,,-,ATM,Yogyakarta,Tarik Tunai,Completed
+26,16,2024-11-14,13:30:00,Payment,300000,24500000,Zara,Fashion,Debit Card,Tangerang,Belanja Baju,Completed
+27,19,2024-11-15,11:00:00,Deposit,1000000,31900000,,-,ATM,Bandung,Setor Tunai,Completed
+28,22,2024-11-15,14:45:00,Payment,500000,32900000,Lazada,E-commerce,Internet Banking,Palembang,Belanja Online,Completed
+29,1,2024-11-16,09:20:00,Payment,100000,6225000,McDonald's,Food & Beverage,Debit Card,Jakarta,Makan,Completed
+30,6,2024-11-16,12:00:00,Withdrawal,500000,19900000,,-,ATM,Bandung,Tarik Tunai,Completed
+31,10,2024-11-17,10:30:00,Deposit,1500000,47000000,,-,Branch,Semarang,Setor Tunai,Completed
+32,14,2024-11-17,15:15:00,Payment,250000,12950000,Pertamina,Fuel,Debit Card,Medan,Bensin,Completed
+33,1,2024-11-18,11:00:00,Transfer Out,500000,5725000,,-,Mobile Banking,Jakarta,Transfer ke 1016789012345,Completed
+34,24,2024-11-18,11:01:30,Transfer In,500000,12600000,,-,Mobile Banking,Pontianak,Transfer dari 1001234567890,Completed
+35,30,2024-11-19,09:45:00,Payment,1000000,45500000,Apple Store,Electronics,Debit Card,Jakarta,Gadget,Completed
+36,36,2024-11-19,14:20:00,Withdrawal,1000000,34400000,,-,ATM,Bandung,Tarik Tunai,Completed
+37,1,2024-11-20,10:00:00,Deposit,2000000,7725000,,-,ATM,Jakarta,Setor Tunai,Completed
+38,8,2024-11-20,13:30:00,Payment,350000,8750000,Carrefour,Retail,Debit Card,Surabaya,Belanja,Completed
+39,16,2024-11-21,11:15:00,Deposit,1000000,25500000,,-,ATM,Tangerang,Setor Tunai,Completed
+40,19,2024-11-21,15:45:00,Payment,400000,31500000,H&M,Fashion,Debit Card,Bandung,Belanja Baju,Completed
+41,1,2024-11-22,09:30:00,Payment,125000,7600000,KFC,Food & Beverage,Debit Card,Jakarta,Makan,Completed
+42,22,2024-11-22,12:00:00,Withdrawal,2000000,30900000,,-,ATM,Palembang,Tarik Tunai,Completed
+43,4,2024-11-23,10:45:00,Deposit,1500000,28100000,,-,Branch,Yogyakarta,Setor Tunai,Completed
+44,10,2024-11-23,14:30:00,Payment,600000,46400000,Bukalapak,E-commerce,Internet Banking,Semarang,Belanja Online,Completed
+45,1,2024-11-24,11:20:00,Transfer Out,1000000,6600000,,-,Mobile Banking,Jakarta,Transfer ke 1022345678901,Completed
+46,33,2024-11-24,11:21:45,Transfer In,1000000,20600000,,-,Mobile Banking,Bandung,Transfer dari 1001234567890,Completed
+47,36,2024-11-25,09:00:00,Deposit,2500000,36900000,,-,Branch,Bandung,Setor Tunai,Completed
+48,1,2024-11-25,13:15:00,Payment,180000,6420000,Cinema XXI,Entertainment,Debit Card,Jakarta,Nonton,Completed
+49,6,2024-11-26,10:30:00,Withdrawal,1000000,18900000,,-,ATM,Bandung,Tarik Tunai,Completed
+50,12,2024-11-26,14:45:00,Payment,400000,35800000,Sephora,Beauty,Debit Card,Surabaya,Kosmetik,Completed
+51,16,2024-11-27,11:00:00,Deposit,1500000,27000000,,-,ATM,Tangerang,Setor Tunai,Completed
+52,30,2024-11-27,15:30:00,Payment,800000,44700000,Samsung Store,Electronics,Debit Card,Jakarta,Gadget,Completed
+53,1,2024-11-28,09:45:00,Payment,95000,6325000,Dunkin Donuts,Food & Beverage,Debit Card,Jakarta,Snack,Completed
+54,19,2024-11-28,12:20:00,Withdrawal,500000,31000000,,-,ATM,Bandung,Tarik Tunai,Completed
+55,4,2024-11-29,10:15:00,Deposit,2000000,30100000,,-,Branch,Yogyakarta,Setor Tunai,Completed
+56,22,2024-11-29,14:00:00,Payment,350000,30550000,Ace Hardware,Home & Garden,Debit Card,Palembang,Peralatan Rumah,Completed
+57,1,2024-11-30,11:30:00,Transfer Out,1500000,4825000,,-,Mobile Banking,Jakarta,Transfer ke 1015678901234,Completed
+58,22,2024-11-30,11:31:50,Transfer In,1500000,32050000,,-,Mobile Banking,Palembang,Transfer dari 1001234567890,Completed
+59,36,2024-12-01,09:20:00,Deposit,3000000,39900000,,-,Branch,Bandung,Setor Tunai,Completed
+60,1,2024-12-01,13:45:00,Payment,175000,4650000,Pizza Hut,Food & Beverage,Debit Card,Jakarta,Makan,Completed
+61,8,2024-12-01,10:30:00,Withdrawal,1000000,7750000,,-,ATM,Surabaya,Tarik Tunai,Completed
+62,15,2024-12-01,15:00:00,Deposit,1000000,12500000,,-,ATM,Denpasar,Setor Tunai,Completed
+63,21,2024-12-01,11:45:00,Payment,280000,5320000,Indomaret,Retail,Debit Card,Malang,Belanja,Completed
+64,35,2024-12-01,14:20:00,Withdrawal,500000,4300000,,-,ATM,Jakarta,Tarik Tunai,Completed
+65,1,2024-12-02,10:00:00,Deposit,3000000,7650000,,-,ATM,Jakarta,Setor Tunai,Completed
+66,2,2024-12-02,11:15:00,Payment,200000,8300000,Pertamina,Fuel,Debit Card,Jakarta,Bensin,Completed
+67,7,2024-12-02,12:30:00,Withdrawal,500000,5100000,,-,ATM,Bandung,Tarik Tunai,Completed
+68,13,2024-12-02,14:45:00,Transfer Out,1000000,11400000,,-,Mobile Banking,Surabaya,Transfer ke 1019012345678,Completed
+69,28,2024-12-02,14:46:20,Transfer In,1000000,14700000,,-,Mobile Banking,Balikpapan,Transfer dari 1008901234568,Completed
+70,17,2024-12-02,16:00:00,Payment,350000,6950000,Shopee,E-commerce,Internet Banking,Tangerang,Belanja Online,Completed
+71,23,2024-12-02,09:30:00,Deposit,1500000,11200000,,-,Branch,Palembang,Setor Tunai,Completed
+72,34,2024-12-02,13:20:00,Withdrawal,800000,11100000,,-,ATM,Solo,Tarik Tunai,Completed
+73,1,2024-12-03,09:00:00,Deposit,5000000,12650000,,-,Branch,Jakarta,Setor Tunai,Completed
+74,1,2024-12-03,11:30:00,Payment,150000,12500000,Starbucks,Food & Beverage,Debit Card,Jakarta,Kopi,Completed
+75,3,2024-12-03,10:15:00,Withdrawal,500000,12300000,,-,ATM,Jakarta,Tarik Tunai,Completed
+76,6,2024-12-03,12:45:00,Deposit,1000000,19900000,,-,ATM,Bandung,Setor Tunai,Completed
+77,8,2024-12-03,14:20:00,Payment,200000,7550000,Alfamart,Retail,Debit Card,Surabaya,Belanja,Completed
+78,10,2024-12-03,15:30:00,Withdrawal,1500000,44900000,,-,ATM,Semarang,Tarik Tunai,Completed
+79,12,2024-12-03,16:00:00,Payment,450000,35350000,Tokopedia,E-commerce,Internet Banking,Surabaya,Belanja Online,Completed
+80,14,2024-12-03,09:45:00,Deposit,1000000,15200000,,-,Branch,Medan,Setor Tunai,Completed
+81,16,2024-12-03,11:00:00,Payment,300000,26700000,Zara,Fashion,Debit Card,Tangerang,Belanja Baju,Completed
+82,18,2024-12-03,13:15:00,Withdrawal,500000,8400000,,-,ATM,Bandung,Tarik Tunai,Completed
+83,19,2024-12-03,14:30:00,Deposit,1500000,32500000,,-,Branch,Bandung,Setor Tunai,Completed
+84,22,2024-12-03,10:20:00,Payment,500000,31550000,Lazada,E-commerce,Internet Banking,Palembang,Belanja Online,Completed
+85,24,2024-12-03,12:00:00,Withdrawal,600000,12000000,,-,ATM,Pontianak,Tarik Tunai,Completed
+86,25,2024-12-03,15:45:00,Deposit,2000000,28400000,,-,Branch,Solo,Setor Tunai,Completed
+87,28,2024-12-03,09:30:00,Payment,250000,14450000,Shell,Fuel,Debit Card,Balikpapan,Bensin,Completed
+88,30,2024-12-03,11:45:00,Withdrawal,2000000,42700000,,-,ATM,Jakarta,Tarik Tunai,Completed
+89,33,2024-12-03,13:30:00,Deposit,1000000,21600000,,-,ATM,Bandung,Setor Tunai,Completed
+90,36,2024-12-03,16:15:00,Payment,600000,39300000,Apple Store,Electronics,Debit Card,Bandung,Gadget,Completed
+91,1,2024-12-03,17:30:00,Transfer Out,3000000,9500000,,-,Mobile Banking,Jakarta,Transfer ke 1007890123456,Completed
+92,10,2024-12-03,17:31:25,Transfer In,3000000,47900000,,-,Mobile Banking,Semarang,Transfer dari 1001234567890,Completed
+93,1,2024-12-03,18:45:00,Payment,250000,9250000,McDonald's,Food & Beverage,Debit Card,Jakarta,Makan,Completed
+94,6,2024-12-03,19:00:00,Withdrawal,1000000,18900000,,-,ATM,Bandung,Tarik Tunai,Completed
+95,1,2024-12-03,20:15:00,Deposit,6500000,15750000,,-,ATM,Jakarta,Setor Tunai,Completed
+96,2,2024-12-03,08:30:00,Transfer Out,200000,8100000,,-,Mobile Banking,Jakarta,Transfer ke 1012345678901,Completed
+97,18,2024-12-03,08:31:15,Transfer In,200000,8600000,,-,Mobile Banking,Bandung,Transfer dari 1001234567891,Completed
+98,18,2024-12-03,14:00:00,Payment,200000,8400000,Gramedia,Retail,Debit Card,Bandung,Buku,Completed
+99,18,2024-12-03,17:20:00,Deposit,500000,8900000,,-,ATM,Bandung,Setor Tunai,Completed
+100,2,2024-12-03,19:30:00,Payment,200000,7900000,Cinema XXI,Entertainment,Debit Card,Jakarta,Nonton,Failed

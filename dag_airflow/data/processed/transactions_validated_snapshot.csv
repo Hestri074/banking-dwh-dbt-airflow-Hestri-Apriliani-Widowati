@@ -1,0 +1,101 @@
+amount,status,channel,location,account_id,balance_after,merchant_name,transaction_id,transaction_date,transaction_time,transaction_type,merchant_category
+5000000,Completed,ATM,Jakarta,1,10750000,,1,2024-11-01,09:15:23,Deposit,-
+1000000,Completed,ATM,Jakarta,1,9750000,,2,2024-11-03,14:30:45,Withdrawal,-
+500000,Completed,Mobile Banking,Jakarta,2,8000000,,3,2024-11-03,10:20:15,Transfer Out,-
+500000,Completed,Mobile Banking,Jakarta,3,12800000,,4,2024-11-03,10:21:30,Transfer In,-
+150000,Completed,Debit Card,Jakarta,1,9600000,Indomaret,5,2024-11-05,16:45:00,Payment,Retail
+2000000,Completed,Branch,Yogyakarta,4,27600000,,6,2024-11-05,08:30:00,Deposit,-
+500000,Completed,ATM,Bandung,6,18400000,,7,2024-11-06,11:20:30,Withdrawal,-
+250000,Completed,Debit Card,Surabaya,8,9550000,Alfamart,8,2024-11-06,13:45:15,Payment,Retail
+3000000,Completed,Branch,Semarang,10,45500000,,9,2024-11-07,09:00:00,Deposit,-
+500000,Completed,Internet Banking,Surabaya,12,35200000,Tokopedia,10,2024-11-07,15:30:00,Payment,E-commerce
+75000,Completed,Debit Card,Jakarta,1,9525000,Starbucks,11,2024-11-08,10:15:00,Payment,Food & Beverage
+1000000,Completed,ATM,Medan,14,13200000,,12,2024-11-08,14:20:00,Withdrawal,-
+2000000,Completed,ATM,Tangerang,16,24800000,,13,2024-11-09,11:30:00,Deposit,-
+300000,Completed,Internet Banking,Bandung,19,30900000,Shopee,14,2024-11-09,16:45:00,Payment,E-commerce
+5000000,Completed,Branch,Palembang,22,33400000,,15,2024-11-10,09:00:00,Deposit,-
+2000000,Completed,Mobile Banking,Jakarta,1,7525000,,16,2024-11-10,12:30:00,Transfer Out,-
+2000000,Completed,Mobile Banking,Bandung,6,20400000,,17,2024-11-10,12:31:15,Transfer In,-
+1500000,Completed,ATM,Solo,25,28400000,,18,2024-11-11,10:00:00,Deposit,-
+2000000,Completed,ATM,Jakarta,30,46500000,,19,2024-11-11,14:15:00,Withdrawal,-
+200000,Completed,Debit Card,Jakarta,1,7325000,Shell,20,2024-11-12,08:45:00,Payment,Fuel
+450000,Completed,Debit Card,Surabaya,8,9100000,Gramedia,21,2024-11-12,11:20:00,Payment,Retail
+2000000,Completed,Branch,Bandung,36,35400000,,22,2024-11-13,09:30:00,Deposit,-
+1000000,Completed,Mobile Banking,Jakarta,1,6325000,,23,2024-11-13,15:00:00,Transfer Out,-
+1000000,Completed,Mobile Banking,Surabaya,12,36200000,,24,2024-11-13,15:01:20,Transfer In,-
+1000000,Completed,ATM,Yogyakarta,4,26600000,,25,2024-11-14,10:15:00,Withdrawal,-
+300000,Completed,Debit Card,Tangerang,16,24500000,Zara,26,2024-11-14,13:30:00,Payment,Fashion
+1000000,Completed,ATM,Bandung,19,31900000,,27,2024-11-15,11:00:00,Deposit,-
+500000,Completed,Internet Banking,Palembang,22,32900000,Lazada,28,2024-11-15,14:45:00,Payment,E-commerce
+100000,Completed,Debit Card,Jakarta,1,6225000,McDonald's,29,2024-11-16,09:20:00,Payment,Food & Beverage
+500000,Completed,ATM,Bandung,6,19900000,,30,2024-11-16,12:00:00,Withdrawal,-
+1500000,Completed,Branch,Semarang,10,47000000,,31,2024-11-17,10:30:00,Deposit,-
+250000,Completed,Debit Card,Medan,14,12950000,Pertamina,32,2024-11-17,15:15:00,Payment,Fuel
+500000,Completed,Mobile Banking,Jakarta,1,5725000,,33,2024-11-18,11:00:00,Transfer Out,-
+500000,Completed,Mobile Banking,Pontianak,24,12600000,,34,2024-11-18,11:01:30,Transfer In,-
+1000000,Completed,Debit Card,Jakarta,30,45500000,Apple Store,35,2024-11-19,09:45:00,Payment,Electronics
+1000000,Completed,ATM,Bandung,36,34400000,,36,2024-11-19,14:20:00,Withdrawal,-
+2000000,Completed,ATM,Jakarta,1,7725000,,37,2024-11-20,10:00:00,Deposit,-
+350000,Completed,Debit Card,Surabaya,8,8750000,Carrefour,38,2024-11-20,13:30:00,Payment,Retail
+1000000,Completed,ATM,Tangerang,16,25500000,,39,2024-11-21,11:15:00,Deposit,-
+400000,Completed,Debit Card,Bandung,19,31500000,H&M,40,2024-11-21,15:45:00,Payment,Fashion
+125000,Completed,Debit Card,Jakarta,1,7600000,KFC,41,2024-11-22,09:30:00,Payment,Food & Beverage
+2000000,Completed,ATM,Palembang,22,30900000,,42,2024-11-22,12:00:00,Withdrawal,-
+1500000,Completed,Branch,Yogyakarta,4,28100000,,43,2024-11-23,10:45:00,Deposit,-
+600000,Completed,Internet Banking,Semarang,10,46400000,Bukalapak,44,2024-11-23,14:30:00,Payment,E-commerce
+1000000,Completed,Mobile Banking,Jakarta,1,6600000,,45,2024-11-24,11:20:00,Transfer Out,-
+1000000,Completed,Mobile Banking,Bandung,33,20600000,,46,2024-11-24,11:21:45,Transfer In,-
+2500000,Completed,Branch,Bandung,36,36900000,,47,2024-11-25,09:00:00,Deposit,-
+180000,Completed,Debit Card,Jakarta,1,6420000,Cinema XXI,48,2024-11-25,13:15:00,Payment,Entertainment
+1000000,Completed,ATM,Bandung,6,18900000,,49,2024-11-26,10:30:00,Withdrawal,-
+400000,Completed,Debit Card,Surabaya,12,35800000,Sephora,50,2024-11-26,14:45:00,Payment,Beauty
+1500000,Completed,ATM,Tangerang,16,27000000,,51,2024-11-27,11:00:00,Deposit,-
+800000,Completed,Debit Card,Jakarta,30,44700000,Samsung Store,52,2024-11-27,15:30:00,Payment,Electronics
+95000,Completed,Debit Card,Jakarta,1,6325000,Dunkin Donuts,53,2024-11-28,09:45:00,Payment,Food & Beverage
+500000,Completed,ATM,Bandung,19,31000000,,54,2024-11-28,12:20:00,Withdrawal,-
+2000000,Completed,Branch,Yogyakarta,4,30100000,,55,2024-11-29,10:15:00,Deposit,-
+350000,Completed,Debit Card,Palembang,22,30550000,Ace Hardware,56,2024-11-29,14:00:00,Payment,Home & Garden
+1500000,Completed,Mobile Banking,Jakarta,1,4825000,,57,2024-11-30,11:30:00,Transfer Out,-
+1500000,Completed,Mobile Banking,Palembang,22,32050000,,58,2024-11-30,11:31:50,Transfer In,-
+3000000,Completed,Branch,Bandung,36,39900000,,59,2024-12-01,09:20:00,Deposit,-
+175000,Completed,Debit Card,Jakarta,1,4650000,Pizza Hut,60,2024-12-01,13:45:00,Payment,Food & Beverage
+1000000,Completed,ATM,Surabaya,8,7750000,,61,2024-12-01,10:30:00,Withdrawal,-
+1000000,Completed,ATM,Denpasar,15,12500000,,62,2024-12-01,15:00:00,Deposit,-
+280000,Completed,Debit Card,Malang,21,5320000,Indomaret,63,2024-12-01,11:45:00,Payment,Retail
+500000,Completed,ATM,Jakarta,35,4300000,,64,2024-12-01,14:20:00,Withdrawal,-
+3000000,Completed,ATM,Jakarta,1,7650000,,65,2024-12-02,10:00:00,Deposit,-
+200000,Completed,Debit Card,Jakarta,2,8300000,Pertamina,66,2024-12-02,11:15:00,Payment,Fuel
+500000,Completed,ATM,Bandung,7,5100000,,67,2024-12-02,12:30:00,Withdrawal,-
+1000000,Completed,Mobile Banking,Surabaya,13,11400000,,68,2024-12-02,14:45:00,Transfer Out,-
+1000000,Completed,Mobile Banking,Balikpapan,28,14700000,,69,2024-12-02,14:46:20,Transfer In,-
+350000,Completed,Internet Banking,Tangerang,17,6950000,Shopee,70,2024-12-02,16:00:00,Payment,E-commerce
+1500000,Completed,Branch,Palembang,23,11200000,,71,2024-12-02,09:30:00,Deposit,-
+800000,Completed,ATM,Solo,34,11100000,,72,2024-12-02,13:20:00,Withdrawal,-
+5000000,Completed,Branch,Jakarta,1,12650000,,73,2024-12-03,09:00:00,Deposit,-
+150000,Completed,Debit Card,Jakarta,1,12500000,Starbucks,74,2024-12-03,11:30:00,Payment,Food & Beverage
+500000,Completed,ATM,Jakarta,3,12300000,,75,2024-12-03,10:15:00,Withdrawal,-
+1000000,Completed,ATM,Bandung,6,19900000,,76,2024-12-03,12:45:00,Deposit,-
+200000,Completed,Debit Card,Surabaya,8,7550000,Alfamart,77,2024-12-03,14:20:00,Payment,Retail
+1500000,Completed,ATM,Semarang,10,44900000,,78,2024-12-03,15:30:00,Withdrawal,-
+450000,Completed,Internet Banking,Surabaya,12,35350000,Tokopedia,79,2024-12-03,16:00:00,Payment,E-commerce
+1000000,Completed,Branch,Medan,14,15200000,,80,2024-12-03,09:45:00,Deposit,-
+300000,Completed,Debit Card,Tangerang,16,26700000,Zara,81,2024-12-03,11:00:00,Payment,Fashion
+500000,Completed,ATM,Bandung,18,8400000,,82,2024-12-03,13:15:00,Withdrawal,-
+1500000,Completed,Branch,Bandung,19,32500000,,83,2024-12-03,14:30:00,Deposit,-
+500000,Completed,Internet Banking,Palembang,22,31550000,Lazada,84,2024-12-03,10:20:00,Payment,E-commerce
+600000,Completed,ATM,Pontianak,24,12000000,,85,2024-12-03,12:00:00,Withdrawal,-
+2000000,Completed,Branch,Solo,25,28400000,,86,2024-12-03,15:45:00,Deposit,-
+250000,Completed,Debit Card,Balikpapan,28,14450000,Shell,87,2024-12-03,09:30:00,Payment,Fuel
+2000000,Completed,ATM,Jakarta,30,42700000,,88,2024-12-03,11:45:00,Withdrawal,-
+1000000,Completed,ATM,Bandung,33,21600000,,89,2024-12-03,13:30:00,Deposit,-
+600000,Completed,Debit Card,Bandung,36,39300000,Apple Store,90,2024-12-03,16:15:00,Payment,Electronics
+3000000,Completed,Mobile Banking,Jakarta,1,9500000,,91,2024-12-03,17:30:00,Transfer Out,-
+3000000,Completed,Mobile Banking,Semarang,10,47900000,,92,2024-12-03,17:31:25,Transfer In,-
+250000,Completed,Debit Card,Jakarta,1,9250000,McDonald's,93,2024-12-03,18:45:00,Payment,Food & Beverage
+1000000,Completed,ATM,Bandung,6,18900000,,94,2024-12-03,19:00:00,Withdrawal,-
+6500000,Completed,ATM,Jakarta,1,15750000,,95,2024-12-03,20:15:00,Deposit,-
+200000,Completed,Mobile Banking,Jakarta,2,8100000,,96,2024-12-03,08:30:00,Transfer Out,-
+200000,Completed,Mobile Banking,Bandung,18,8600000,,97,2024-12-03,08:31:15,Transfer In,-
+200000,Completed,Debit Card,Bandung,18,8400000,Gramedia,98,2024-12-03,14:00:00,Payment,Retail
+500000,Completed,ATM,Bandung,18,8900000,,99,2024-12-03,17:20:00,Deposit,-
+200000,Failed,Debit Card,Jakarta,2,7900000,Cinema XXI,100,2024-12-03,19:30:00,Payment,Entertainment

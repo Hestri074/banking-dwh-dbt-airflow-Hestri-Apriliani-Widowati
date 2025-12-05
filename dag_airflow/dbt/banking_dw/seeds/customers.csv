@@ -1,0 +1,26 @@
+customer_id,first_name,last_name,date_of_birth,gender,email,phone,address,city,province,postal_code,occupation,income_level,risk_rating,registration_date,last_updated
+1,Budi,Santoso,1985-03-15,M,budi.santoso@email.com,081234567890,Jl. Sudirman No. 123,Jakarta,DKI Jakarta,12190,Karyawan Swasta,High,A,2020-01-15,2024-11-20
+2,Siti,Nurhaliza,1990-07-22,F,siti.nur@email.com,082345678901,Jl. Gatot Subroto 45,Jakarta,DKI Jakarta,12930,Wiraswasta,Medium,B,2020-02-10,2024-10-15
+3,Ahmad,Hidayat,1978-11-05,M,ahmad.h@email.com,083456789012,Jl. Malioboro 78,Yogyakarta,DI Yogyakarta,55271,PNS,Medium,A,2020-03-20,2024-09-10
+4,Dewi,Lestari,1992-05-18,F,dewi.lestari@email.com,084567890123,Jl. Dago 234,Bandung,Jawa Barat,40135,Profesional,High,A,2020-04-12,2024-11-25
+5,Eko,Prasetyo,1988-09-30,M,eko.p@email.com,085678901234,Jl. Tunjungan 56,Surabaya,Jawa Timur,60275,Karyawan Swasta,Medium,B,2020-05-08,2024-08-20
+6,Fitri,Handayani,1995-12-25,F,fitri.h@email.com,086789012345,Jl. Asia Afrika 89,Bandung,Jawa Barat,40112,Fresh Graduate,Low,C,2020-06-15,2024-07-30
+7,Guntur,Wibowo,1983-02-14,M,guntur.w@email.com,087890123456,Jl. Pemuda 123,Semarang,Jawa Tengah,50132,Pengusaha,High,A,2020-07-20,2024-11-28
+8,Hana,Putri,1991-08-07,F,hana.putri@email.com,088901234567,Jl. Diponegoro 67,Surabaya,Jawa Timur,60241,Dokter,High,A,2020-08-25,2024-11-15
+9,Indra,Kusuma,1987-04-19,M,indra.k@email.com,089012345678,Jl. Ahmad Yani 45,Medan,Sumatera Utara,20111,Karyawan BUMN,Medium,B,2020-09-10,2024-10-05
+10,Jasmine,Kartika,1993-10-03,F,jasmine.k@email.com,081123456789,Jl. Raya Kuta 234,Denpasar,Bali,80361,Pariwisata,Medium,B,2020-10-18,2024-09-20
+11,Kevin,Tanaka,1989-06-12,M,kevin.t@email.com,082234567890,Jl. Serpong 123,Tangerang,Banten,15310,IT Specialist,High,A,2020-11-05,2024-11-22
+12,Linda,Wijaya,1994-01-28,F,linda.w@email.com,083345678901,Jl. Pasteur 78,Bandung,Jawa Barat,40161,Marketing,Medium,B,2020-12-12,2024-10-28
+13,Muhammad,Rizki,1986-07-21,M,m.rizki@email.com,084456789012,Jl. Cihampelas 90,Bandung,Jawa Barat,40131,Arsitek,High,A,2021-01-20,2024-11-18
+14,Nurul,Aini,1996-03-09,F,nurul.a@email.com,085567890123,Jl. Veteran 56,Malang,Jawa Timur,65145,Guru,Low,C,2021-02-15,2024-08-15
+15,Oscar,Pratama,1984-11-17,M,oscar.p@email.com,086678901234,Jl. Sudirman 789,Palembang,Sumatera Selatan,30129,Manager,High,A,2021-03-22,2024-11-30
+16,Putri,Maharani,1997-05-05,F,putri.m@email.com,087789012345,Jl. Gajah Mada 123,Pontianak,Kalimantan Barat,78121,Akuntan,Medium,B,2021-04-10,2024-09-25
+17,Reza,Firmansyah,1982-09-23,M,reza.f@email.com,088890123456,Jl. Ahmad Dahlan 45,Solo,Jawa Tengah,57111,Pengacara,High,A,2021-05-18,2024-11-20
+18,Sarah,Amelia,1990-12-31,F,sarah.a@email.com,089901234567,Jl. Braga 67,Bandung,Jawa Barat,40111,Designer,Medium,B,2021-06-25,2024-10-12
+19,Tono,Sugiarto,1988-02-08,M,tono.s@email.com,081234567891,Jl. Merdeka 234,Balikpapan,Kalimantan Timur,76111,Teknisi,Medium,B,2021-07-30,2024-09-18
+20,Vina,Kusumawati,1995-08-16,F,vina.k@email.com,082345678902,Jl. Pahlawan 89,Makassar,Sulawesi Selatan,90111,Farmasi,Medium,B,2021-08-15,2024-11-10
+21,Wahyu,Setiawan,1981-04-27,M,wahyu.s@email.com,083456789013,Jl. Imam Bonjol 123,Jakarta,DKI Jakarta,10310,Direktur,High,A,2021-09-20,2024-11-28
+22,Yuni,Rahmawati,1993-11-14,F,yuni.r@email.com,084567890124,Jl. Dipatiukur 56,Bandung,Jawa Barat,40132,HR Manager,High,A,2021-10-12,2024-10-20
+23,Zaki,Maulana,1987-01-06,M,zaki.m@email.com,085678901235,Jl. Slamet Riyadi 78,Solo,Jawa Tengah,57131,Sales,Medium,B,2021-11-25,2024-09-05
+24,Aisyah,Ramadhani,1994-06-19,F,aisyah.r@email.com,086789012346,Jl. Hayam Wuruk 90,Jakarta,DKI Jakarta,10120,Journalist,Low,C,2021-12-08,2024-08-25
+25,Bayu,Nugroho,1989-10-11,M,bayu.n@email.com,087890123457,Jl. Sukajadi 234,Bandung,Jawa Barat,40164,Pilot,High,A,2022-01-14,2024-11-25

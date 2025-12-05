@@ -1,0 +1,7 @@
+banking_dw:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/data/banking.duckdb
+      schema: main

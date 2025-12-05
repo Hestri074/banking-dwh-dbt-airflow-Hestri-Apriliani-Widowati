@@ -1,0 +1,25 @@
+{"timestamp":"2025-12-05T07:15:50.274048Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-05T07:15:50.277481Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_etl_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-05T07:15:50.464913Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.467274Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.468843Z","level":"info","event":"Current task name:validate_output","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.469877Z","level":"info","event":"Dag name:banking_etl_dag","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.471275Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.472036Z","level":"info","event":"TASK 4: VALIDATE OUTPUT","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.472912Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.475176Z","level":"info","event":"Checking file: /opt/airflow/data/raw/transactions_raw.csv","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.479400Z","level":"info","event":"✓ File exists","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.480238Z","level":"info","event":"Reading and validating data...","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.492707Z","level":"info","event":"✓ Total records: 100","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.493556Z","level":"info","event":"✓ All transaction_id values are valid (not null/empty)","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.494540Z","level":"info","event":"✓ All required columns present: ['transaction_id', 'account_id', 'transaction_date', 'amount', 'transaction_type']","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.495287Z","level":"info","event":"Saving validated snapshot to: /opt/airflow/data/processed/transactions_validated_snapshot.csv","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.505271Z","level":"info","event":"✓ Validated snapshot saved: /opt/airflow/data/processed/transactions_validated_snapshot.csv","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.509287Z","level":"info","event":"✓ File size: 9012 bytes","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.510261Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.511249Z","level":"info","event":"✓✓✓ ALL VALIDATIONS PASSED ✓✓✓","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.512351Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.511194Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-12-05T07:15:50.587859Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.588874Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:15:50.590029Z","level":"info","event":"Task operator:<Task(PythonOperator): validate_output>","logger":"task.stdout"}

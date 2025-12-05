@@ -1,0 +1,19 @@
+{"timestamp":"2025-12-05T07:16:13.159116Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-05T07:16:13.161556Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_etl_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-05T07:16:13.241668Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.243068Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.244569Z","level":"info","event":"Current task name:save_raw_csv","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.245444Z","level":"info","event":"Dag name:banking_etl_dag","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.247382Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.248201Z","level":"info","event":"TASK 2: SAVE RAW CSV","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.249141Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.252537Z","level":"info","event":"Pulling data from XCom...","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.291397Z","level":"info","event":"✓ Retrieved 100 records from XCom","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.293533Z","level":"info","event":"Writing to: /opt/airflow/data/raw/transactions_raw.csv","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.304341Z","level":"info","event":"✓ Successfully saved 100 records to /opt/airflow/data/raw/transactions_raw.csv","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.309361Z","level":"info","event":"✓ File size: 9012 bytes","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.310329Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.310557Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-12-05T07:16:13.344947Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.345773Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:13.346861Z","level":"info","event":"Task operator:<Task(PythonOperator): save_raw_csv>","logger":"task.stdout"}

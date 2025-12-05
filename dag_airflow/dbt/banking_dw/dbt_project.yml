@@ -1,0 +1,81 @@
+# dbt_project.yml
+name: 'banking_dw'
+version: '1.0.0'
+config-version: 2
+
+profile: 'banking_dw'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  banking_dw:
+    # kamu bisa tambah config default untuk subfolder di sini kalau mau
+    # staging:
+    #   +materialized: view
+    # marts:
+    #   +materialized: view
+    # intermediate:
+    #   +materialized: view
+
+seeds:
+  banking_dw:
+    +schema: main
+
+    accounts:
+      +column_types:
+        account_id: bigint
+        customer_id: bigint
+        account_number: varchar
+        account_type: varchar
+        account_status: varchar
+        branch_id: bigint
+        branch_name: varchar
+        interest_rate: double
+        minimum_balance: bigint
+        current_balance: bigint
+        currency: varchar
+        last_transaction_date: date
+
+    customers:
+      +column_types:
+        customer_id: bigint
+        first_name: varchar
+        last_name: varchar
+        date_of_birth: date
+        gender: varchar
+        email: varchar
+        phone: varchar
+        address: varchar
+        city: varchar
+        province: varchar
+        postal_code: varchar
+        occupation: varchar
+        income_level: varchar
+        risk_rating: varchar
+        registration_date: date
+        last_updated: date
+
+    transactions:
+      +column_types:
+        transaction_id: bigint
+        account_id: bigint
+        transaction_date: date
+        transaction_time: time
+        transaction_type: varchar
+        amount: bigint
+        balance_after: bigint
+        merchant_name: varchar
+        merchant_category: varchar
+        channel: varchar
+        location: varchar
+        description: varchar
+        status: varchar

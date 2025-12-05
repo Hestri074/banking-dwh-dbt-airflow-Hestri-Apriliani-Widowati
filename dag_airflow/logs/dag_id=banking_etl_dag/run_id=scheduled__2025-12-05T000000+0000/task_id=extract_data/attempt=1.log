@@ -1,0 +1,19 @@
+{"timestamp":"2025-12-05T07:16:10.852589Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-12-05T07:16:10.856902Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/banking_etl_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-12-05T07:16:11.026998Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.027944Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.029287Z","level":"info","event":"Current task name:extract_data","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.030166Z","level":"info","event":"Dag name:banking_etl_dag","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.144540Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.145509Z","level":"info","event":"TASK 1: EXTRACT DATA","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.146389Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.147431Z","level":"info","event":"Connecting to DuckDB: /opt/airflow/dbt/banking_dw/dev.duckdb","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.221175Z","level":"info","event":"Executing query...","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.247408Z","level":"info","event":"✓ Successfully extracted 100 records","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.249167Z","level":"info","event":"✓ Columns: ['transaction_id', 'account_id', 'transaction_date', 'transaction_time', 'transaction_type', 'amount', 'balance_after', 'merchant_name', 'merchant_category', 'channel', 'location', 'status']","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.304814Z","level":"info","event":"✓ Data pushed to XCom with key 'raw_transactions'","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.305741Z","level":"info","event":"================================================================================","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.305776Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-12-05T07:16:11.347696Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.349196Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-12-05T07:16:11.355723Z","level":"info","event":"Task operator:<Task(PythonOperator): extract_data>","logger":"task.stdout"}
